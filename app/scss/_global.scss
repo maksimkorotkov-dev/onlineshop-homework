@@ -1,0 +1,46 @@
+@import "fonts";
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul,
+li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	margin: 0;
+	font-family: "Quicksand", sans-serif;
+}
+
+.box {
+	display: flex;
+	transition: all 3s;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.blue-text {
+	color: #0674ec;
+}
+
+.violet-text {
+	color: #7347c1;
+}
